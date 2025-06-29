@@ -379,102 +379,206 @@ export default function UseCases() {
         </div>
 
         {/* Deployment Section */}
-        <div className="deployment py-16">
+        <div
+          className="colored-background mx-[-100vw] px-[100vw] py-12"
+          style={{ background: "#fff", color: "black", marginTop: "48px" }}
+        >
           <div className="max-w-6xl mx-auto">
-            <h1 className="text-3xl font-bold text-center mb-12">
-              Effortlessly Deploy AI Calls
-            </h1>
+            <div className="text-center mb-12">
+              <h1 className="text-3xl font-bold mt-4">
+                Effortlessly Deploy AI Calls
+              </h1>
+            </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div
-                className="card p-6 bg-white rounded-xl shadow-sm"
-                style={{ height: "350px", width: "60%" }}
+                className="card p-6"
+                style={{
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "8px",
+                  height: "100%",
+                }}
               >
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3">
-                      Brand Your Outbound Calls
-                    </h3>
-                    <p className="text-sm text-neutral-600">
-                      Build trust in outbound campaigns by using branded caller
-                      ID to represent your company.
-                    </p>
-                  </div>
-                </div>
+                <h2 className="text-xl font-semibold mb-3">
+                  Brand Your Outbound Calls
+                </h2>
+                <p className="text-sm mb-4">
+                  Build trust in outbound campaigns by using branded caller ID
+                  to represent your company.
+                </p>
+                <img
+                  src=""
+                  alt="picture"
+                  style={{ height: "34px", width: "34px" }}
+                />
               </div>
 
               <div
-                className="card p-6 bg-white rounded-xl shadow-sm"
-                style={{ height: "350px", width: "60%" }}
+                className="card p-6"
+                style={{
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "8px",
+                  height: "100%",
+                }}
               >
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3">
-                      SIP Trunking Made Simple
-                    </h3>
-                    <p className="text-sm text-neutral-600">
-                      Seamlessly connect to any telephony system using SIP
-                      trunking.
-                    </p>
-                  </div>
-                  <img
-                    src=""
-                    alt=""
-                    style={{ width: "30px", height: "30px" }}
-                  />
-                </div>
+                <h2 className="text-xl font-semibold mb-3">
+                  SIP Trunking Made Simple
+                </h2>
+                <p className="text-sm mb-4">
+                  Seamlessly connect to any telephony system using SIP trunking.
+                </p>
+                <img
+                  src=""
+                  alt="picture"
+                  style={{ height: "34px", width: "34px" }}
+                />
               </div>
 
               <div
-                className="card p-6 bg-white rounded-xl shadow-sm"
-                style={{ height: "350px", width: "60%" }}
+                className="card p-6"
+                style={{
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "8px",
+                  height: "100%",
+                }}
               >
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3">
-                      Batch Calling
-                    </h3>
-                    <p className="text-sm text-neutral-600">
-                      Launch hundreds of calls without limits and track campaign
-                      success in real time.
-                    </p>
-                  </div>
-                  <img
-                    src=""
-                    alt=""
-                    style={{ width: "30px", height: "30px" }}
-                  />
-                </div>
+                <h2 className="text-xl font-semibold mb-3">Batch Calling</h2>
+                <p className="text-sm mb-4">
+                  Launch hundreds of calls without limits and track campaign
+                  success in real time.
+                </p>
+                <img
+                  src=""
+                  alt="picture"
+                  style={{ height: "34px", width: "34px" }}
+                />
               </div>
-
               <div
-                className="card p-6 bg-white rounded-xl shadow-sm"
-                style={{ height: "350px", width: "60%" }}
+                className="card p-6"
+                style={{
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "8px",
+                  height: "100%",
+                }}
               >
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3">
-                      Build Trust with Verified Numbers
-                    </h3>
-                    <p className="text-sm text-neutral-600">
-                      Avoid 'Spam Likely' flags and build confidence with your
-                      customers.
-                    </p>
-                  </div>
-                  <img
-                    src=""
-                    alt=""
-                    style={{ width: "30px", height: "30px" }}
-                  />
-                </div>
+                <h2 className="text-xl font-semibold mb-3">
+                  Build Trust with Verified Numbers
+                </h2>
+                <p className="text-sm mb-4">
+                  Avoid 'Spam Likely' flags and build confidence with your
+                  customers.
+                </p>
+                <img
+                  src=""
+                  alt="picture"
+                  style={{ height: "34px", width: "34px" }}
+                />
               </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <button
+                style={{
+                  background: "black",
+                  color: "white",
+                  borderRadius: "5px",
+                  padding: "12px 24px",
+                  marginBottom: "24px",
+                  transition: "all 0.3s ease",
+                  ":hover": { background: "#333", transform: "scale(1.05)" },
+                }}
+              >
+                Build
+              </button>
             </div>
           </div>
         </div>
 
-        {/* Industries Section */}
+        {/* Integration + Industries Section */}
+        <div
+          className="integrations py-16 mx-[-100vw] px-[100vw]"
+          style={{ background: "#F4F2EC", left: "0", right: "0" }}
+        >
+          <div className="Industries" style={{ display: "flex", gap: "16px", marginBottom:'30px' }}>
+            <div
+              className="card p-6"
+              style={{
+                border: "1px solid #e5e7eb",
+                borderRadius: "8px",
+                height: "100%",
+                background: "white",
+                width:'300px'
+              }}
+            >
+              <h2 className="text-xl font-semibold mb-3">
+                Empowering Technology
+              </h2>
+              <p className="text-sm mb-4">
+                Scale your AI-driven writing and CRM-based customer engagement
+                campaigns, catering to businesses from startups to enterprises.
+              </p>
+            </div>
+            <div
+              className="card p-6"
+              style={{
+                border: "1px solid #e5e7eb",
+                borderRadius: "8px",
+                height: "100%",
+                width: "625px",
+              }}
+            >
+              <h2 className="text-xl font-semibold mb-3">
+                Revolutionizing Financial Services
+              </h2>
+              <p className="text-sm mb-4">
+                Generate qualified leads, streamline applications, manage debt
+                collections, and handle service inquiries seamlessly in multiple
+                languages.
+              </p>
+              <img
+                src=""
+                alt="picture"
+                style={{ height: "34px", width: "34px" }}
+              />
+            </div>
+            <div
+              className="card p-6"
+              style={{
+                border: "1px solid #e5e7eb",
+                borderRadius: "8px",
+                height: "100%",
+                background: "white",
+                width:'300px'
+              }}
+            >
+              <h2 className="text-xl font-semibold mb-3">
+                Healthcase Industry
+              </h2>
+              <p className="text-sm mb-4">
+                Improve patient experiences by booking appointments, answering
+                inquiries, and managing customer service for diagnostic centers.
+                Let AI handle routine tasks so your team can focus on delivering
+                exceptional care.
+              </p>
+            </div>
+          </div>
 
-        <div className="integrations py-16">
+          <center>
+              <button
+                  style={{
+                    background: "black",
+                    color: "white",
+                    borderRadius: "5px",
+                    padding: "12px 24px",
+                    marginBottom: "24px",
+                    transition: "all 0.3s ease",
+                    ":hover": { background: "#333", transform: "scale(1.05)" },
+                  }}
+                >
+                  Get Started
+                </button>
+            </center>
+
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row gap-12 items-start">
               <div className="flex-1">
@@ -543,27 +647,13 @@ export default function UseCases() {
                 <p className="text-gray-500">Image Placeholder</p>
               </div>
               <div className="lists space-y-6">
-                <div>
-                  <button
-                    className="text-lg font-semibold text-neutral-800 w-full text-left flex items-center justify-between"
-                    onClick={() => toggleExpand(0)}
-                  >
+                <div
+                  className="border border-gray-200 rounded-lg p-4 transition-all duration-200 hover:border-blue-500 hover:shadow-md cursor-pointer"
+                  onClick={() => toggleExpand(0)}
+                >
+                  <div className="text-lg font-semibold text-neutral-800">
                     Supervision
-                    <svg
-                      className={`w-5 h-5 transform transition-transform ${expanded[0] ? "rotate-180" : ""}`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
+                  </div>
                   {expanded[0] && (
                     <p className="text-sm text-neutral-600 mt-2">
                       Built-in guardrails keep AI on-topic, while real-time
@@ -571,27 +661,14 @@ export default function UseCases() {
                     </p>
                   )}
                 </div>
-                <div>
-                  <button
-                    className="text-lg font-semibold text-neutral-800 w-full text-left flex items-center justify-between"
-                    onClick={() => toggleExpand(1)}
-                  >
+
+                <div
+                  className="border border-gray-200 rounded-lg p-4 transition-all duration-200 hover:border-blue-500 hover:shadow-md cursor-pointer"
+                  onClick={() => toggleExpand(1)}
+                >
+                  <div className="text-lg font-semibold text-neutral-800">
                     Secure Integration
-                    <svg
-                      className={`w-5 h-5 transform transition-transform ${expanded[1] ? "rotate-180" : ""}`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
+                  </div>
                   {expanded[1] && (
                     <p className="text-sm text-neutral-600 mt-2">
                       AI must be adaptable, but security should never be
@@ -602,27 +679,14 @@ export default function UseCases() {
                     </p>
                   )}
                 </div>
-                <div>
-                  <button
-                    className="text-lg font-semibold text-neutral-800 w-full text-left flex items-center justify-between"
-                    onClick={() => toggleExpand(2)}
-                  >
+
+                <div
+                  className="border border-gray-200 rounded-lg p-4 transition-all duration-200 hover:border-blue-500 hover:shadow-md cursor-pointer"
+                  onClick={() => toggleExpand(2)}
+                >
+                  <div className="text-lg font-semibold text-neutral-800">
                     Observability & Auditing
-                    <svg
-                      className={`w-5 h-5 transform transition-transform ${expanded[2] ? "rotate-180" : ""}`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
+                  </div>
                   {expanded[2] && (
                     <p className="text-sm text-neutral-600 mt-2">
                       Comprehensive quality assurance workflows provide full
@@ -632,57 +696,31 @@ export default function UseCases() {
                     </p>
                   )}
                 </div>
-                <div>
-                  <button
-                    className="text-lg font-semibold text-neutral-800 w-full text-left flex items-center justify-between"
-                    onClick={() => toggleExpand(3)}
-                  >
+
+                <div
+                  className="border border-gray-200 rounded-lg p-4 transition-all duration-200 hover:border-blue-500 hover:shadow-md cursor-pointer"
+                  onClick={() => toggleExpand(3)}
+                >
+                  <div className="text-lg font-semibold text-neutral-800">
                     Data Governance
-                    <svg
-                      className={`w-5 h-5 transform transition-transform ${expanded[3] ? "rotate-180" : ""}`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
+                  </div>
                   {expanded[3] && (
                     <p className="text-sm text-neutral-600 mt-2">
-                      Your data is exclusively used for your organization’s AI
+                      Your data is exclusively used for your organization's AI
                       solutions. We never use your data to train external models
                       and follow industry-leading best practices to ensure its
                       security and integrity.
                     </p>
                   )}
                 </div>
-                <div>
-                  <button
-                    className="text-lg font-semibold text-neutral-800 w-full text-left flex items-center justify-between"
-                    onClick={() => toggleExpand(4)}
-                  >
+
+                <div
+                  className="border border-gray-200 rounded-lg p-4 transition-all duration-200 hover:border-blue-500 hover:shadow-md cursor-pointer"
+                  onClick={() => toggleExpand(4)}
+                >
+                  <div className="text-lg font-semibold text-neutral-800">
                     Privacy - PII Redaction
-                    <svg
-                      className={`w-5 h-5 transform transition-transform ${expanded[4] ? "rotate-180" : ""}`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
+                  </div>
                   {expanded[4] && (
                     <p className="text-sm text-neutral-600 mt-2">
                       Personally identifiable information (PII) is automatically
